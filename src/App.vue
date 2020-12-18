@@ -29,15 +29,16 @@
 
         <v-tabs centered center-active mobile-breakpoint>
 
-          <v-tab to="/finalFileScan">finalFile To Scan</v-tab>
+          <v-tab to="/finalFileScan">Decentralized File Scan</v-tab>
 
-          <v-tab to="urlScan/">Url Scan</v-tab>
+          <v-tab to="/centralizedFileScan">Centralized File Scan</v-tab>
 
-          <v-tab to="/fileScan">File Sccan</v-tab>
+          <v-tab to="/urlScan">Decentralized Url Scan</v-tab>
+
 
           <v-tab to="/centralizedUrlScan">centralized Url Scan</v-tab>
 
-          <v-tab to="/fetchOneFileToScan">fetch One File To Scan</v-tab>
+          <!-- <v-tab to="/fetchOneFileToScan">fetch One File To Scan</v-tab> -->
 
         </v-tabs>
         <!-- </v-app-bar> -->

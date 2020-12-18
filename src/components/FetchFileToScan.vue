@@ -174,7 +174,6 @@ export default {
                 calculateHighestDuration(cidObject.cidObjects);
             }
           })
-
       },
 
     changeShowResult(index){

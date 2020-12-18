@@ -6,7 +6,9 @@ import urlScan from '../components/UrlScan'
 
 import centralizedUrlScan from '../components/CentralizedUrlScan'
 
-import fileScan from '../components/FileScan'
+import centralizedFileScan from '../components/CentralizedFileScan'
+
+// import fileScan from '../components/FileScan'
 
 import fetchOneFileToScan from '../components/FetchOneFileToScan'
 import finalFileScan from '../components/FinalFileScan'
@@ -18,7 +20,7 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: finalFileScan
   },
   {
     path: '/about',
@@ -42,9 +44,9 @@ const routes = [
   },
 
   {
-    path: '/fileScan',
-    name: 'fileScan',
-    component: fileScan
+    path: '/centralizedFileScan',
+    name: 'centralizedFileScan',
+    component: centralizedFileScan
   },
 
   {

@@ -16,9 +16,10 @@
 
     </div>
 
-    <div v-if="fromUrl" class="mt-10">
+    <!-- <div v-if="fromUrl" class="mt-10"> -->
+    <div class="mt-10">
 
-      <!-- <url-scan/> -->
+      <url-scan/>
 
       <fetch-one-file-to-scan/>
       
@@ -29,7 +30,7 @@
       <file-scan/>
     </div> -->
 
-    <div v-else class="mt-10">
+    <div class="mt-10">
 
       <centralized-url-scan/>
     </div>
@@ -47,7 +48,7 @@ import urlScan from '../components/UrlScan'
 
 import centralizedUrlScan from '../components/CentralizedUrlScan'
 
-import fileScan from '../components/FileScan'
+import fileScan from '../components/FirstFileScan'
 
 import fetchOneFileToScan from '../components/FetchOneFileToScan'
 export default {

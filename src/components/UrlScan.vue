@@ -22,8 +22,13 @@
 
             <div v-if="loading" class="mt-10">
                 
-            <label>loading ...</label>
+                <label>loading ...</label>
 
+            </div>
+
+            <div class="mt-10">
+                
+                <label>{{statusText}}</label>
             </div>
 
             
@@ -203,7 +208,7 @@ export default {
         else
         {
 
-        console.log(`!!! url.includes('https://ipfs.io/ipfs'`)
+        // console.log(`!!! url.includes('https://ipfs.io/ipfs'`)
             
         // return;
         const result = await axios({method: 'post',
@@ -764,6 +769,7 @@ export default {
         //      rawResponse,
         // },
 
+        statusText: '',
         url: '',
         result: '',
         error: '',
